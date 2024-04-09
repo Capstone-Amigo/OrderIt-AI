@@ -2,7 +2,7 @@ from flask import Flask, request
 from flask_restx import Resource, Api
 from flask_cors import CORS
 
-from model.generator import generate
+from uitls.generator import generate
 
 
 app = Flask(__name__)
