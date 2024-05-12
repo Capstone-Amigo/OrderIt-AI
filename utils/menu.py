@@ -11,5 +11,6 @@ def get_menu_list() -> List[str]:
     cold_list = ["ICE_americano", "ICE_cafe_latte", "ICE_vanilla_latte", "ICE_greentea_latte", "ICE_issupanner","lemon_ade","grapefruit_ade", "peach_ice_tea", "lemon_ice_tea"]
     hot_list =  ["HOT_americano", "HOT_cafe_latte", "HOT_vanilla_latte", "HOT_greentea_latte", "HOT_issupanner","cappuccino"]
     dessert_list = ["red_velvet_cake", "roll_cake", "cheese_cake", "chocolate_cookie", "plain_cookie", "salt_bread", "strawberry_chocolate_cream_cake", ]
+    etc_list = ['receipt']
     
-    return cold_list + hot_list + dessert_list 
+    return cold_list + hot_list + dessert_list + etc_list
