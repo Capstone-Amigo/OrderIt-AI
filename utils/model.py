@@ -3,7 +3,7 @@ from transformers import AutoTokenizer, AutoModelForSeq2SeqLM
 import torch
 
 
-model = AutoModelForSeq2SeqLM.from_pretrained('giliit/capstone_v2')
+model = AutoModelForSeq2SeqLM.from_pretrained('giliit/capstone_v3')
 tokenizer = AutoTokenizer.from_pretrained("giliit/capstone_tokenizer")
 
 
